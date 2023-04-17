@@ -56,17 +56,17 @@ const IndexPage = () => {
       <section className="section">
         <div className="container">
           <header className="section__intro">
-            <h4>Why should you choose us?</h4>
+            <h4>¿Por qué elegirnos?</h4>
           </header>
 
           <ul className="shop-data-items">
             <li>
               <i className="icon-shipping"></i>
               <div className="data-item__content">
-                <h4>Free Shipping</h4>
+                <h4>Envío gratuito</h4>
                 <p>
-                  All purchases over $199 are eligible for free shipping via
-                  USPS First Class Mail.
+                  Todos los pedidos superiores a $199 son elegibles para envío
+                  gratuito a través de USPS First Class Mail.
                 </p>
               </div>
             </li>
@@ -74,10 +74,10 @@ const IndexPage = () => {
             <li>
               <i className="icon-payment"></i>
               <div className="data-item__content">
-                <h4>Easy Payments</h4>
+                <h4>Pagos sencillos</h4>
                 <p>
-                  All payments are processed instantly over a secure payment
-                  protocol.
+                  Todos los pagos se procesan instantáneamente a través de un
+                  protocolo de pago seguro.
                 </p>
               </div>
             </li>
@@ -85,10 +85,10 @@ const IndexPage = () => {
             <li>
               <i className="icon-cash"></i>
               <div className="data-item__content">
-                <h4>Money-Back Guarantee</h4>
+                <h4>Garantía de devolución de dinero</h4>
                 <p>
-                  If an item arrived damaged or you've changed your mind, you
-                  can send it back for a full refund.
+                  Si un artículo llegó dañado o has cambiado de opinión, puedes
+                  devolverlo para obtener un reembolso completo.
                 </p>
               </div>
             </li>
@@ -96,10 +96,10 @@ const IndexPage = () => {
             <li>
               <i className="icon-materials"></i>
               <div className="data-item__content">
-                <h4>Finest Quality</h4>
+                <h4>Calidad excepcional</h4>
                 <p>
-                  Designed to last, each of our products has been crafted with
-                  the finest materials.
+                  Diseñados para durar, cada uno de nuestros productos ha sido
+                  fabricado con los mejores materiales.
                 </p>
               </div>
             </li>
