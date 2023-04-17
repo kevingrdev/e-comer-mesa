@@ -1,4 +1,4 @@
-import Logo from '../../assets/icons/logo';
+import Logo from "../../assets/icons/logo";
 
 const Footer = () => {
   return (
@@ -6,52 +6,100 @@ const Footer = () => {
       <div className="container">
         <div className="site-footer__top">
           <div className="site-footer__description">
-            <h6><Logo /> <span>E</span>-Shop</h6>
-            <p>House My Brand designs clothing for the young, the old & everyone in between – but most 
-              importantly, for the fashionable</p>
+            <h6>
+              <Logo />{" "}
+            </h6>
+            <p>
+              En Ferretería Mesa ofrecemos herramientas de calidad para todo
+              tipo de proyectos eléctricos y construcción, con diseños
+              innovadores y resistentes.
+            </p>
             <ul className="site-footer__social-networks">
-              <li><a href="#"><i className="icon-facebook"></i></a></li>
-              <li><a href="#"><i className="icon-twitter"></i></a></li>
-              <li><a href="#"><i className="icon-linkedin"></i></a></li>
-              <li><a href="#"><i className="icon-instagram"></i></a></li>
-              <li><a href="#"><i className="icon-youtube-play"></i></a></li>
+              <li>
+                <a href="#">
+                  <i className="icon-facebook"></i>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <i className="icon-twitter"></i>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <i className="icon-linkedin"></i>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <i className="icon-instagram"></i>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <i className="icon-youtube-play"></i>
+                </a>
+              </li>
             </ul>
           </div>
 
           <div className="site-footer__links">
             <ul>
-              <li>Shopping online</li>
-              <li><a href="#">Order Status</a></li>
-              <li><a href="#">Shipping and Delivery</a></li>
-              <li><a href="#">Returns</a></li>
-              <li><a href="#">Payment options</a></li>
-              <li><a href="#">Contact Us</a></li>
+              <li>Compras en línea</li>
+              <li>
+                <a href="#">Estado del pedido</a>
+              </li>
+              <li>
+                <a href="#">Envío y entrega</a>
+              </li>
+              <li>
+                <a href="#">Devoluciones</a>
+              </li>
+              <li>
+                <a href="#">Opciones de pago</a>
+              </li>
+              <li>
+                <a href="#">Contáctanos</a>
+              </li>
             </ul>
             <ul>
-              <li>Information</li>
-              <li><a href="#">Gift Cards</a></li>
-              <li><a href="#">Find a store</a></li>
-              <li><a href="#">Newsletter</a></li>
-              <li><a href="#">Bacome a member</a></li>
-              <li><a href="#">Site feedback</a></li>
+              <li>Información</li>
+              <li>
+                <a href="#">Tarjetas de regalo</a>
+              </li>
+              <li>
+                <a href="#">Encuentra una tienda</a>
+              </li>
+              <li>
+                <a href="#">Boletín informativo</a>
+              </li>
+              <li>
+                <a href="#">Conviértete en miembro</a>
+              </li>
+              <li>
+                <a href="#">Comentarios del sitio</a>
+              </li>
             </ul>
             <ul>
-              <li>Contact</li>
-              <li><a href="#">store@uikit.com</a></li>
-              <li><a href="#">Hotline: +1 131 138 138</a></li>
+              <li>Contacto</li>
+              <li>
+                <a href="#">ventas@ferreteriamesa.com</a>
+              </li>
+              <li>
+                <a href="#">Línea de atención: +1 131 138 138</a>
+              </li>
             </ul>
           </div>
         </div>
       </div>
-      
+
       <div className="site-footer__bottom">
         <div className="container">
-          <p>DESIGN BY ICEO.CO - © 2019. ALL RIGHTS RESERVED.</p>
+          <p>© 2023. TODOS LOS DERECHOS RESERVADOS.</p>
         </div>
       </div>
     </footer>
-  )
+  );
 };
 
-
-export default Footer
+export default Footer;
