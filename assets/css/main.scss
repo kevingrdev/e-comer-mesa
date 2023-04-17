@@ -234,14 +234,14 @@ h1,h2,h3,h4,h5 {
     font-size: 16px;
   }
   svg {
-    width: 38px;
-    height: 28px;
+    width: 68px;
+    height: 58px;
     fill: currentColor;
     object-fit: contain;
     margin-right: 15px;
     @include breakpoint(phone) {
-      width: 45px;
-      height: 35px;
+      width: 75px;
+      height: 65px;
     }
   }
 }
@@ -394,7 +394,7 @@ h1,h2,h3,h4,h5 {
       }
     }
     .site-logo {
-      color: #000;
+      color: #C9392B;
     }
   }
   .search-form-wrapper {
